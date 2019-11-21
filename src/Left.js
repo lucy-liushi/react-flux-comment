@@ -27,7 +27,7 @@ export default class Left extends Component {
                 <br/>
                 <input type="text" ref='content'/>
                 <br/>
-                <button onClick={this.add.bind(this)}>提交</button>
+                <button onClick={this.add.bind(this)}>提交评论</button>
             </div>
         )
     }
